@@ -1,6 +1,9 @@
 # 依赖
 node_modules
 
+# WorkBuddy 工作区数据（非应用代码）
+.workbuddy
+
 # 构建产物
 dist
 dist-ssr
