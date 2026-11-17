@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --ink: #3d3554;
+  --ink-soft: #8a80a3;
+  --accent: #8b6cf0;
+  --accent-2: #e878a0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  color: var(--ink);
+  background: linear-gradient(135deg, #f3efff 0%, #fdf1f4 45%, #eef7ff 100%);
+  overflow-x: hidden;
+}
+
+button {
+  font-family: inherit;
+}
